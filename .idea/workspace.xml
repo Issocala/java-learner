@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="61ccba4d-2c4a-4a07-934e-94541cd6e4e9" name="Default Changelist" comment="lru提交">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LRU-algorithm/src/main/java/com/java/PoolSizeCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LRU-algorithm/src/main/java/com/java/SimplePoolSizeCaculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-learner.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-poll-size-magic-calculator/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="userSettingsFile" value="$USER_HOME$/apache-maven-3.6.3/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1V693mgEHtRYulR51PDYVpnD9VC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../learning" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.java" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="61ccba4d-2c4a-4a07-934e-94541cd6e4e9" name="Default Changelist" comment="" />
+      <created>1576562480315</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576562480315</updated>
+      <workItem from="1576562482799" duration="1898000" />
+      <workItem from="1576565970323" duration="2948000" />
+      <workItem from="1576742336490" duration="130000" />
+    </task>
+    <task id="LOCAL-00001" summary="第一次提交">
+      <created>1576563086719</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576563086719</updated>
+    </task>
+    <task id="LOCAL-00002" summary="第一次提交">
+      <created>1576563704484</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1576563704484</updated>
+    </task>
+    <task id="LOCAL-00003" summary="lru提交">
+      <created>1576566287543</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1576566287543</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="第一次提交" />
+    <MESSAGE value="lru提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="lru提交" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2475" y="214" width="800" height="677" key="#Project_Structure" timestamp="1576742470666">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2475" y="214" width="800" height="677" key="#Project_Structure/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1576742470666" />
+    <state x="2613" y="328" width="524" height="449" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1576742457206">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2613" y="328" width="524" height="449" key="#com.intellij.ide.util.PackageChooserDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1576742457206" />
+    <state x="2513" y="412" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1576742458735">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2513" y="412" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1576742458734" />
+    <state x="2441" y="135" width="867" height="835" key="CommitChangelistDialog2" timestamp="1576566293847">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2441" y="135" width="867" height="835" key="CommitChangelistDialog2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1576566293847" />
+    <state x="2648" y="293" width="453" height="518" key="FileChooserDialogImpl" timestamp="1576566457829">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2648" y="293" width="453" height="518" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1576566457829" />
+    <state x="2667" y="441" key="Github.CreateGistDialog" timestamp="1576563361257">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2667" y="441" key="Github.CreateGistDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1576563361257" />
+    <state x="2711" y="217" width="300" height="231" key="Github.ShareDialog" timestamp="1576562679563">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2711" y="217" width="300" height="231" key="Github.ShareDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1576562679563" />
+    <state x="2641" y="254" width="467" height="597" key="Github.UntrackedFilesDialog" timestamp="1576562707087">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2641" y="254" width="467" height="597" key="Github.UntrackedFilesDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1576562707087" />
+    <state x="2475" y="287" width="800" height="531" key="Vcs.Push.Dialog.v2" timestamp="1576566312840">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2475" y="287" width="800" height="531" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1576566312840" />
+    <state x="2647" y="406" width="455" height="293" key="git4idea.rebase.GitRebaseDialog" timestamp="1576566027106">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2647" y="406" width="455" height="293" key="git4idea.rebase.GitRebaseDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1576566027106" />
+    <state x="2157" y="245" width="1436" height="615" key="new project wizard" timestamp="1576742434566">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2157" y="245" width="1436" height="615" key="new project wizard/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1576742434566" />
+  </component>
+</project>
