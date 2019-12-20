@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61ccba4d-2c4a-4a07-934e-94541cd6e4e9" name="Default Changelist" comment="lru提交">
+    <list default="true" id="61ccba4d-2c4a-4a07-934e-94541cd6e4e9" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LRU-algorithm/src/main/java/com/java/PoolSizeCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LRU-algorithm/src/main/java/com/java/SimplePoolSizeCaculator.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/java-learner.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread-poll-size-magic-calculator/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-poll-size-magic-calculator/src/main/java/com/java/custom/CustomPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-poll-size-magic-calculator/src/main/java/com/java/custom/CustomThreadPoolExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LRU-algorithm/src/main/java/com/java/lru.java" beforeDir="false" afterPath="$PROJECT_DIR$/LRU-algorithm/src/main/java/com/java/lru.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread-poll-size-magic-calculator/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/thread-poll-size-magic-calculator/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread-poll-size-magic-calculator/src/main/java/com/java/PoolSizeCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread-poll-size-magic-calculator/src/main/java/com/java/SimplePoolSizeCaculator.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +83,9 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.java" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/thread-poll-size-magic-calculator/src/main/java/com/java" />
+    </key>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -105,7 +111,9 @@
       <updated>1576562480315</updated>
       <workItem from="1576562482799" duration="1898000" />
       <workItem from="1576565970323" duration="2948000" />
-      <workItem from="1576742336490" duration="130000" />
+      <workItem from="1576742336490" duration="941000" />
+      <workItem from="1576745557486" duration="4690000" />
+      <workItem from="1576842182418" duration="791000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1576563086719</created>
@@ -128,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576566287543</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="使用魔法估计线程池">
+      <created>1576742673162</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1576742673162</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,13 +153,14 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="第一次提交" />
     <MESSAGE value="lru提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="lru提交" />
+    <MESSAGE value="使用魔法估计线程池" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用魔法估计线程池" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2475" y="214" width="800" height="677" key="#Project_Structure" timestamp="1576742470666">
+    <state x="2475" y="214" width="800" height="677" key="#Project_Structure" timestamp="1576842104842">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2475" y="214" width="800" height="677" key="#Project_Structure/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1576742470666" />
+    <state x="2475" y="214" width="800" height="677" key="#Project_Structure/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1576842104842" />
     <state x="2613" y="328" width="524" height="449" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1576742457206">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -153,10 +169,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2513" y="412" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1576742458734" />
-    <state x="2441" y="135" width="867" height="835" key="CommitChangelistDialog2" timestamp="1576566293847">
+    <state x="2441" y="135" width="867" height="835" key="CommitChangelistDialog2" timestamp="1576742673102">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2441" y="135" width="867" height="835" key="CommitChangelistDialog2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1576566293847" />
+    <state x="2441" y="135" width="867" height="835" key="CommitChangelistDialog2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1576742673102" />
     <state x="2648" y="293" width="453" height="518" key="FileChooserDialogImpl" timestamp="1576566457829">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>

@@ -1,4 +1,7 @@
 package com.java;
 
-public class lru {
+import java.util.LinkedHashMap;
+
+public class lru extends LinkedHashMap {
+
 }

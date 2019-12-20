@@ -1,4 +1,4 @@
-package com.java;
+package com.java.calculator;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.Timer;
