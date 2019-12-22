@@ -1,12 +1,11 @@
 package com.java;
 
-import java.util.Arrays;
 import java.util.Iterator;
-import java.util.LinkedHashMap;
-import java.util.Map;
+
 
 public class LruExample {
     public static void main(String[] args) {
+        // 验证利用LinkedHashMap
         LruCache<Integer,Integer> lruCache = new LruCache<Integer, Integer>(4);
         for(int i = 0; i < 10; i++){
             lruCache.put(i,i+"a");
