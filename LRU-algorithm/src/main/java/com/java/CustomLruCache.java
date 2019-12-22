@@ -1,12 +1,12 @@
 package com.java;
 import java.util.Hashtable;
-public class LruCache2 {
+public class CustomLruCache {
     /**
      * 自定义双端链表
      */
     class DLinkedNode {
         int key;
-        int value;
+        String value;
         DLinkedNode prev;
         DLinkedNode next;
     }
@@ -64,7 +64,7 @@ public class LruCache2 {
     private int capacity;
     private DLinkedNode head, tail;
 
-    public LruCache2(int capacity) {
+    public CustomLruCache(int capacity) {
         this.size = 0;
         this.capacity = capacity;
         // 表头
@@ -82,9 +82,9 @@ public class LruCache2 {
      * @param key
      * @return
      */
-    public int get(int key) {
+    public String get(int key) {
         DLinkedNode node = cache.get(key);
-        if (node == null) return -1;
+        if (node == null) return "-1";
 
         moveToHead(node);
 
@@ -96,7 +96,7 @@ public class LruCache2 {
      * @param key
      * @param value
      */
-    public void put(int key, int value) {
+    public void put(int key, String value) {
         DLinkedNode node = cache.get(key);
         // 插入节点不存在
         if (node == null) {

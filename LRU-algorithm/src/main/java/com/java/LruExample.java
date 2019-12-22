@@ -1,24 +1,15 @@
 package com.java;
 
-import java.util.Iterator;
-
-
 public class LruExample {
-    public static void main(String[] args) {
-        // 验证利用LinkedHashMap
-        LruCache<Integer,Integer> lruCache = new LruCache<Integer, Integer>(4);
-        for(int i = 0; i < 10; i++){
-            lruCache.put(i,i+"a");
+    public static void main(String[] args){
+        CustomLruCache customLruCache = new CustomLruCache(5);
+        for(int i = 0; i < 5; i++){
+            customLruCache.put(i,i+"");
         }
-
-        Iterator iterator = (Iterator) lruCache.entrySet().iterator();
-        while (iterator.hasNext()){
-            System.out.println(iterator.next());
-        }
-        lruCache.get(8);
-        Iterator iterator1 = lruCache.entrySet().iterator();
-        while (iterator1.hasNext()){
-            System.out.println("----"+iterator1.next());
-        }
+        System.out.print("容器key = 0的初始内容：");
+        System.out.println(customLruCache.get(0));
+        System.out.println("key = 0，被获取了一次，所以会在队头，新增一个，导致key = 1被淘汰");
+        customLruCache.put(6,"6");
+        System.out.println("里面没有key =　1的，以及被淘汰,索引返回值为" + customLruCache.get(1));
     }
 }
