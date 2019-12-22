@@ -2,19 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61ccba4d-2c4a-4a07-934e-94541cd6e4e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-learner.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread-poll-size-magic-calculator/src/main/java/com/java/custom/CustomPolicy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread-poll-size-magic-calculator/src/main/java/com/java/custom/CustomThreadPoolExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LRU-algorithm/src/main/java/com/java/lru.java" beforeDir="false" afterPath="$PROJECT_DIR$/LRU-algorithm/src/main/java/com/java/lru.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LRU-algorithm/src/main/java/com/java/LruCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/LRU-algorithm/src/main/java/com/java/LruCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LRU-algorithm/src/main/java/com/java/LruCache2.java" beforeDir="false" afterPath="$PROJECT_DIR$/LRU-algorithm/src/main/java/com/java/LruCache2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LRU-algorithm/src/main/java/com/java/LruExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/LRU-algorithm/src/main/java/com/java/LruExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/thread-poll-size-magic-calculator/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/thread-poll-size-magic-calculator/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread-poll-size-magic-calculator/src/main/java/com/java/PoolSizeCalculator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread-poll-size-magic-calculator/src/main/java/com/java/SimplePoolSizeCaculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread-poll-size-magic-calculator/src/main/java/com/java/custom/CustomPolicy.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +81,54 @@
       <recent name="$PROJECT_DIR$/thread-poll-size-magic-calculator/src/main/java/com/java" />
     </key>
   </component>
+  <component name="RunManager" selected="Application.LruExample2">
+    <configuration name="CustomThreadPoolExecutor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.custom.CustomThreadPoolExecutor" />
+      <module name="thread-poll-size-magic-calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.custom.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LruExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.LruExample" />
+      <module name="LRU-algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LruExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.LruExample2" />
+      <module name="LRU-algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.LruExample2" />
+        <item itemvalue="Application.LruExample" />
+        <item itemvalue="Application.CustomThreadPoolExecutor" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
@@ -113,7 +155,8 @@
       <workItem from="1576565970323" duration="2948000" />
       <workItem from="1576742336490" duration="941000" />
       <workItem from="1576745557486" duration="4690000" />
-      <workItem from="1576842182418" duration="791000" />
+      <workItem from="1576842182418" duration="980000" />
+      <workItem from="1576891477054" duration="8747000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1576563086719</created>
@@ -143,7 +186,35 @@
       <option name="project" value="LOCAL" />
       <updated>1576742673162</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ThreadPoolExecutor自定义线程池，自定义拒绝策略">
+      <created>1576843758283</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1576843758283</updated>
+    </task>
+    <task id="LOCAL-00006" summary="ThreadPoolExecutor自定义线程池，自定义拒绝策略">
+      <created>1576996621596</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1576996621596</updated>
+    </task>
+    <task id="LOCAL-00007" summary="利用LinkedHashMap自己实现lru算法">
+      <created>1577000086516</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1577000086516</updated>
+    </task>
+    <task id="LOCAL-00008" summary="自己构建一个链表，利用hashtable和头尾节点，自己实现lru算法">
+      <created>1577001153357</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1577001153357</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,13 +225,25 @@
     <MESSAGE value="第一次提交" />
     <MESSAGE value="lru提交" />
     <MESSAGE value="使用魔法估计线程池" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用魔法估计线程池" />
+    <MESSAGE value="ThreadPoolExecutor自定义线程池，自定义拒绝策略" />
+    <MESSAGE value="利用LinkedHashMap自己实现lru算法" />
+    <MESSAGE value="自己构建一个链表，利用hashtable和头尾节点，自己实现lru算法" />
+    <option name="LAST_COMMIT_MESSAGE" value="自己构建一个链表，利用hashtable和头尾节点，自己实现lru算法" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2475" y="214" width="800" height="677" key="#Project_Structure" timestamp="1576842104842">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="555" y="214" width="800" height="677" key="#Auto_Import" timestamp="1577000570015">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
+    <state x="555" y="214" width="800" height="677" key="#Auto_Import/0.27.1920.1053@0.27.1920.1053" timestamp="1577000570015" />
+    <state x="555" y="236" width="800" height="677" key="#Project_Structure" timestamp="1576996110754">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="555" y="236" key="#Project_Structure/0.27.1920.1053@0.27.1920.1053" timestamp="1576996110754" />
     <state x="2475" y="214" width="800" height="677" key="#Project_Structure/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1576842104842" />
+    <state x="768" y="260" width="374" height="585" key="#com.intellij.ide.util.MemberChooser" timestamp="1576996976900">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="768" y="260" width="374" height="585" key="#com.intellij.ide.util.MemberChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1576996976899" />
     <state x="2613" y="328" width="524" height="449" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1576742457206">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -169,10 +252,11 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2513" y="412" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1576742458734" />
-    <state x="2441" y="135" width="867" height="835" key="CommitChangelistDialog2" timestamp="1576742673102">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="521" y="159" width="1166" height="835" key="CommitChangelistDialog2" timestamp="1577002080064">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="2441" y="135" width="867" height="835" key="CommitChangelistDialog2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1576742673102" />
+    <state x="521" y="159" width="1166" height="835" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1577002080064" />
+    <state x="2441" y="135" width="867" height="835" key="CommitChangelistDialog2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1576843758212" />
     <state x="2648" y="293" width="453" height="518" key="FileChooserDialogImpl" timestamp="1576566457829">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -189,10 +273,43 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2641" y="254" width="467" height="597" key="Github.UntrackedFilesDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1576562707087" />
-    <state x="2475" y="287" width="800" height="531" key="Vcs.Push.Dialog.v2" timestamp="1576566312840">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="1866" height="275" key="GridCell.Tab.0.bottom" timestamp="1577000939149">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="2475" y="287" width="800" height="531" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1576566312840" />
+    <state width="1866" height="275" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1577000939149" />
+    <state width="1866" height="275" key="GridCell.Tab.0.center" timestamp="1577000939148">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1866" height="275" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1577000939148" />
+    <state width="1866" height="275" key="GridCell.Tab.0.left" timestamp="1577000939147">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1866" height="275" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1577000939147" />
+    <state width="1866" height="275" key="GridCell.Tab.0.right" timestamp="1577000939148">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1866" height="275" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1577000939148" />
+    <state width="1866" height="339" key="GridCell.Tab.1.bottom" timestamp="1576998570018">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1866" height="339" key="GridCell.Tab.1.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1576998570018" />
+    <state width="1866" height="339" key="GridCell.Tab.1.center" timestamp="1576998570018">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1866" height="339" key="GridCell.Tab.1.center/0.27.1920.1053@0.27.1920.1053" timestamp="1576998570018" />
+    <state width="1866" height="339" key="GridCell.Tab.1.left" timestamp="1576998570018">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1866" height="339" key="GridCell.Tab.1.left/0.27.1920.1053@0.27.1920.1053" timestamp="1576998570018" />
+    <state width="1866" height="339" key="GridCell.Tab.1.right" timestamp="1576998570018">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1866" height="339" key="GridCell.Tab.1.right/0.27.1920.1053@0.27.1920.1053" timestamp="1576998570018" />
+    <state x="555" y="307" width="800" height="531" key="Vcs.Push.Dialog.v2" timestamp="1577000104063">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="555" y="307" width="800" height="531" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1577000104063" />
+    <state x="2475" y="287" width="800" height="531" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1576843766862" />
     <state x="2647" y="406" width="455" height="293" key="git4idea.rebase.GitRebaseDialog" timestamp="1576566027106">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
