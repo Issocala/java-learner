@@ -11,6 +11,7 @@
     <modules>
         <module>LRU-algorithm</module>
         <module>thread-poll-size-magic-calculator</module>
+        <module>zookeeper</module>
     </modules>
 
 

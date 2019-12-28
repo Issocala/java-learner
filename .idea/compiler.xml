@@ -6,8 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="LRUalgorithm" />
         <module name="LRU-algorithm" />
         <module name="thread-poll-size-magic-calculator" />
+        <module name="zookeeper" />
       </profile>
     </annotationProcessing>
   </component>
