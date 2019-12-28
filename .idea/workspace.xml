@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61ccba4d-2c4a-4a07-934e-94541cd6e4e9" name="Default Changelist" comment="lru">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="61ccba4d-2c4a-4a07-934e-94541cd6e4e9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/zookeeper/src/main/java/com/student/WatcherDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread-poll-size-magic-calculator/thread-poll-size-magic-calculator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/java-learner.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../neo4j_student_example/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../neo4j_student_example/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +81,7 @@
       <recent name="$PROJECT_DIR$/thread-poll-size-magic-calculator/src/main/java/com/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConnectionDemo">
+  <component name="RunManager" selected="Application.WatcherDemo">
     <configuration name="ConnectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.student.ConnectionDemo" />
       <module name="zookeeper" />
@@ -139,8 +134,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WatcherDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.student.WatcherDemo" />
+      <module name="zookeeper" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.student.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WatcherDemo" />
         <item itemvalue="Application.ConnectionDemo" />
         <item itemvalue="Application.LruExample2" />
         <item itemvalue="Application.PutRoom" />
@@ -177,7 +186,7 @@
       <workItem from="1576842182418" duration="980000" />
       <workItem from="1576891477054" duration="15624000" />
       <workItem from="1577516176240" duration="1335000" />
-      <workItem from="1577517538121" duration="1065000" />
+      <workItem from="1577517538121" duration="2198000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1576563086719</created>
@@ -277,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577518414677</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="1">
+      <created>1577518783948</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1577518783948</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,7 +313,8 @@
     <MESSAGE value="命名空间配置修改" />
     <MESSAGE value="lru" />
     <MESSAGE value="zookeeper-demo入门学习" />
-    <option name="LAST_COMMIT_MESSAGE" value="zookeeper-demo入门学习" />
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="555" y="214" width="800" height="677" key="#Auto_Import" timestamp="1577000570015">
@@ -325,11 +342,11 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="503" y="27" width="893" height="1053" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1577018387782" />
-    <state x="2441" y="135" width="1166" height="835" key="CommitChangelistDialog2" timestamp="1577518414471">
+    <state x="2441" y="135" width="1166" height="835" key="CommitChangelistDialog2" timestamp="1577519940551">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="521" y="159" width="1166" height="835" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1577020561395" />
-    <state x="2441" y="135" width="867" height="835" key="CommitChangelistDialog2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1577518414471" />
+    <state x="2441" y="135" width="867" height="835" key="CommitChangelistDialog2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1577519940551" />
     <state x="2648" y="293" width="453" height="518" key="FileChooserDialogImpl" timestamp="1577516405387">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -346,26 +363,26 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2641" y="254" width="467" height="597" key="Github.UntrackedFilesDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1576562707087" />
-    <state width="1866" height="274" key="GridCell.Tab.0.bottom" timestamp="1577518686189">
+    <state width="1866" height="274" key="GridCell.Tab.0.bottom" timestamp="1577519890010">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1866" height="339" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1577022062036" />
-    <state width="1866" height="274" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1577518686189" />
-    <state width="1866" height="274" key="GridCell.Tab.0.center" timestamp="1577518686189">
+    <state width="1866" height="274" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1577519890010" />
+    <state width="1866" height="274" key="GridCell.Tab.0.center" timestamp="1577519890010">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1866" height="339" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1577022062036" />
-    <state width="1866" height="274" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1577518686189" />
-    <state width="1866" height="274" key="GridCell.Tab.0.left" timestamp="1577518686189">
+    <state width="1866" height="274" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1577519890010" />
+    <state width="1866" height="274" key="GridCell.Tab.0.left" timestamp="1577519890010">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1866" height="339" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1577022062035" />
-    <state width="1866" height="274" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1577518686189" />
-    <state width="1866" height="274" key="GridCell.Tab.0.right" timestamp="1577518686189">
+    <state width="1866" height="274" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1577519890010" />
+    <state width="1866" height="274" key="GridCell.Tab.0.right" timestamp="1577519890010">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1866" height="339" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1577022062036" />
-    <state width="1866" height="274" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1577518686189" />
+    <state width="1866" height="274" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1577519890010" />
     <state width="1866" height="339" key="GridCell.Tab.1.bottom" timestamp="1577022062036">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -386,11 +403,11 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2213" y="174" width="1037" height="761" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1577517176404" />
-    <state x="2475" y="287" width="800" height="531" key="Vcs.Push.Dialog.v2" timestamp="1577518602422">
+    <state x="2475" y="287" width="800" height="531" key="Vcs.Push.Dialog.v2" timestamp="1577518792214">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="555" y="307" width="800" height="531" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1577020576035" />
-    <state x="2475" y="287" width="800" height="531" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1577518602422" />
+    <state x="2475" y="287" width="800" height="531" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1577518792214" />
     <state x="2534" y="367" key="com.intellij.ide.util.TipDialog" timestamp="1577516180101">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
