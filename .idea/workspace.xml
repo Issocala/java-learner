@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61ccba4d-2c4a-4a07-934e-94541cd6e4e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/zookeeper/src/main/java/com/student/WatcherDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,6 +75,9 @@
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.student" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/thread-poll-size-magic-calculator/src/main/java/com/java" />
@@ -186,7 +188,7 @@
       <workItem from="1576842182418" duration="980000" />
       <workItem from="1576891477054" duration="15624000" />
       <workItem from="1577516176240" duration="1335000" />
-      <workItem from="1577517538121" duration="2198000" />
+      <workItem from="1577517538121" duration="2819000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1576563086719</created>
@@ -293,7 +295,21 @@
       <option name="project" value="LOCAL" />
       <updated>1577518783948</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Watcher机制">
+      <created>1577519940603</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1577519940603</updated>
+    </task>
+    <task id="LOCAL-00017" summary="文件修改">
+      <created>1577519957814</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1577519957814</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,7 +330,9 @@
     <MESSAGE value="lru" />
     <MESSAGE value="zookeeper-demo入门学习" />
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="Watcher机制" />
+    <MESSAGE value="文件修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="文件修改" />
   </component>
   <component name="WindowStateProjectService">
     <state x="555" y="214" width="800" height="677" key="#Auto_Import" timestamp="1577000570015">
@@ -342,11 +360,11 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="503" y="27" width="893" height="1053" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1577018387782" />
-    <state x="2441" y="135" width="1166" height="835" key="CommitChangelistDialog2" timestamp="1577519940551">
+    <state x="2441" y="135" width="1166" height="835" key="CommitChangelistDialog2" timestamp="1577519957757">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="521" y="159" width="1166" height="835" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1577020561395" />
-    <state x="2441" y="135" width="867" height="835" key="CommitChangelistDialog2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1577519940551" />
+    <state x="2441" y="135" width="867" height="835" key="CommitChangelistDialog2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1577519957757" />
     <state x="2648" y="293" width="453" height="518" key="FileChooserDialogImpl" timestamp="1577516405387">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -403,11 +421,11 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2213" y="174" width="1037" height="761" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1577517176404" />
-    <state x="2475" y="287" width="800" height="531" key="Vcs.Push.Dialog.v2" timestamp="1577518792214">
+    <state x="2475" y="287" width="800" height="531" key="Vcs.Push.Dialog.v2" timestamp="1577519965388">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="555" y="307" width="800" height="531" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1577020576035" />
-    <state x="2475" y="287" width="800" height="531" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1577518792214" />
+    <state x="2475" y="287" width="800" height="531" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1577519965388" />
     <state x="2534" y="367" key="com.intellij.ide.util.TipDialog" timestamp="1577516180101">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
