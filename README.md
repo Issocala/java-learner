@@ -5,3 +5,5 @@
 >[线程池创建以及自定义拒绝策略](https://github.com/Issocala/java-learner/tree/master/thread-poll-size-magic-calculator)
 
 >[zookeeper入门学习](https://github.com/Issocala/java-learner/tree/master/zookeeper)
+
+>[dubbo项目](https://github.com/Issocala/java-learner/tree/master/dubbo-demo)
