@@ -12,6 +12,8 @@
         <module>LRU-algorithm</module>
         <module>thread-poll-size-magic-calculator</module>
         <module>zookeeper</module>
+        <module>dubbo-demo</module>
+        <module>dubbo-api</module>
     </modules>
 
 
