@@ -2,43 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61ccba4d-2c4a-4a07-934e-94541cd6e4e9" name="Default Changelist" comment="利用ThreadPoolExecutor,实现自定义拒绝策略的线程池">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/java-learner.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LRU-algorithm/LRU-algorithm.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-learner.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zookeeper/zookeeper.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/qaplug_profiles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/src/main/java/com/student/listener/ListenerManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/src/main/java/com/student/listener/PlayerActor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/src/main/java/com/student/listener/PlayerLevelChangedListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/src/main/java/com/student/listener/PlayerLevelUpDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/src/main/java/com/student/listener/annotation/Listener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-demo/dubbo-client/dubbo-client.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-demo/dubbo-demo.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zookeeper/zookeeper.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -51,24 +40,12 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IgnoredFileRootStore">
-    <option name="generatedRoots">
-      <set>
-        <option value="$PROJECT_DIR$/.idea" />
-      </set>
-    </option>
-  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
-        <option name="userSettingsFile" value="$USER_HOME$/apache-maven-3.6.3/conf/settings.xml" />
+        <option name="userSettingsFile" value="C:\Users\ly\.m2\settings.xml" />
       </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectId" id="1V693mgEHtRYulR51PDYVpnD9VC" />
@@ -77,18 +54,18 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ChangesTree.GroupingKeys" value="module&#10;directory" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/dubbo-demo/dubbo-server/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/game/src/main/java/com/student/listener" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -97,25 +74,30 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="project.structure.side.proportion" value="0.40574712" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/dubbo-demo" />
-      <recent name="$PROJECT_DIR$/thread-poll-size-magic-calculator/src/main/java/com/java" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.student.listener" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.java" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.student" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ly\IdeaProjects\java-learner\game\src\main\java\com\student\listener" />
       <recent name="$PROJECT_DIR$/dubbo-demo/dubbo-server/src/main/resources" />
       <recent name="$PROJECT_DIR$/dubbo-demo/dubbo-server/src/main/java/com/student" />
       <recent name="$PROJECT_DIR$/dubbo-demo/dubbo-client/src/main/resources" />
       <recent name="$PROJECT_DIR$/zookeeper/src/main/java/com/student" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.student" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ly\IdeaProjects\java-learner\game" />
+      <recent name="$PROJECT_DIR$/dubbo-demo" />
+      <recent name="$PROJECT_DIR$/thread-poll-size-magic-calculator/src/main/java/com/java" />
     </key>
   </component>
   <component name="RunManager" selected="Application.SpringApplicationClient">
@@ -194,18 +176,6 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -225,6 +195,7 @@
       <workItem from="1577516176240" duration="1335000" />
       <workItem from="1577517538121" duration="5030000" />
       <workItem from="1577693684069" duration="1299000" />
+      <workItem from="1616216566688" duration="6188000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1576563086719</created>
@@ -377,7 +348,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -401,127 +372,41 @@
     <option name="LAST_COMMIT_MESSAGE" value="Dubbo项目" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="555" y="214" width="800" height="677" key="#Auto_Import" timestamp="1577000570015">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state x="249" y="0" key="#Project_Structure" timestamp="1616222729656">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="555" y="214" width="800" height="677" key="#Auto_Import/0.27.1920.1053@0.27.1920.1053" timestamp="1577000570015" />
-    <state x="555" y="236" width="800" height="677" key="#Project_Structure" timestamp="1577694336024">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1616222729656" />
+    <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser" timestamp="1616223278710">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="555" y="236" key="#Project_Structure/0.27.1920.1053@0.27.1920.1053" timestamp="1576996110754" />
-    <state x="555" y="236" width="800" height="677" key="#Project_Structure/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1577694336024" />
-    <state x="2475" y="214" width="800" height="677" key="#Project_Structure/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1576842104842" />
-    <state x="768" y="260" width="374" height="585" key="#com.intellij.ide.util.MemberChooser" timestamp="1576996976900">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1616223278710" />
+    <state x="445" y="153" key="FileChooserDialogImpl" timestamp="1616218633864">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="768" y="260" width="374" height="585" key="#com.intellij.ide.util.MemberChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1576996976899" />
-    <state x="2613" y="328" width="524" height="449" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1576742457206">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="445" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1616218633864" />
+    <state width="1492" height="210" key="GridCell.Tab.0.bottom" timestamp="1616223045865">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="2613" y="328" width="524" height="449" key="#com.intellij.ide.util.PackageChooserDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1576742457206" />
-    <state x="2513" y="412" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1576742458735">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="1492" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1616223045865" />
+    <state width="1492" height="210" key="GridCell.Tab.0.center" timestamp="1616223045865">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="2513" y="412" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1576742458734" />
-    <state x="503" y="27" width="893" height="1053" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1577018387782">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state width="1492" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1616223045865" />
+    <state width="1492" height="210" key="GridCell.Tab.0.left" timestamp="1616223045865">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="503" y="27" width="893" height="1053" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1577018387782" />
-    <state x="521" y="159" width="1002" height="835" key="CommitChangelistDialog2" timestamp="1577694983248">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state width="1492" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1616223045865" />
+    <state width="1492" height="210" key="GridCell.Tab.0.right" timestamp="1616223045865">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="521" y="159" width="1166" height="835" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1577020561395" />
-    <state x="521" y="159" width="1002" height="835" key="CommitChangelistDialog2/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1577694983248" />
-    <state x="2441" y="135" width="867" height="835" key="CommitChangelistDialog2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1577521205230" />
-    <state x="182" y="130" width="1536" height="894" key="DiffContextDialog" timestamp="1577694605249">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state width="1492" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1616223045865" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1616221722200">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="182" y="130" key="DiffContextDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1577694605249" />
-    <state x="2102" y="106" width="1536" height="894" key="DiffContextDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1577521274579" />
-    <state x="728" y="313" width="424" height="484" key="FileChooserDialogImpl" timestamp="1577693977119">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1616221722200" />
+    <state x="178" y="72" key="new project wizard" timestamp="1616222725798">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="728" y="313" width="424" height="484" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1577693977119" />
-    <state x="2648" y="293" width="453" height="518" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1577525706472" />
-    <state x="2667" y="441" key="Github.CreateGistDialog" timestamp="1576563361257">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state x="2667" y="441" key="Github.CreateGistDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1576563361257" />
-    <state x="2711" y="217" width="300" height="231" key="Github.ShareDialog" timestamp="1576562679563">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state x="2711" y="217" width="300" height="231" key="Github.ShareDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1576562679563" />
-    <state x="2641" y="254" width="467" height="597" key="Github.UntrackedFilesDialog" timestamp="1576562707087">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state x="2641" y="254" width="467" height="597" key="Github.UntrackedFilesDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1576562707087" />
-    <state width="1866" height="178" key="GridCell.Tab.0.bottom" timestamp="1577694553727">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state width="1866" height="339" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1577022062036" />
-    <state width="1866" height="178" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1577694553727" />
-    <state width="1866" height="173" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1577525709785" />
-    <state width="1866" height="178" key="GridCell.Tab.0.center" timestamp="1577694553726">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state width="1866" height="339" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1577022062036" />
-    <state width="1866" height="178" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1577694553726" />
-    <state width="1866" height="173" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1577525709784" />
-    <state width="1866" height="178" key="GridCell.Tab.0.left" timestamp="1577694553726">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state width="1866" height="339" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1577022062035" />
-    <state width="1866" height="178" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1577694553726" />
-    <state width="1866" height="173" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1577525709784" />
-    <state width="1866" height="178" key="GridCell.Tab.0.right" timestamp="1577694553727">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state width="1866" height="339" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1577022062036" />
-    <state width="1866" height="178" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1577694553727" />
-    <state width="1866" height="173" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1577525709785" />
-    <state width="1866" height="339" key="GridCell.Tab.1.bottom" timestamp="1577022062036">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state width="1866" height="339" key="GridCell.Tab.1.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1577022062036" />
-    <state width="1866" height="339" key="GridCell.Tab.1.center" timestamp="1577022062036">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state width="1866" height="339" key="GridCell.Tab.1.center/0.27.1920.1053@0.27.1920.1053" timestamp="1577022062036" />
-    <state width="1866" height="339" key="GridCell.Tab.1.left" timestamp="1577022062036">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state width="1866" height="339" key="GridCell.Tab.1.left/0.27.1920.1053@0.27.1920.1053" timestamp="1577022062036" />
-    <state width="1866" height="339" key="GridCell.Tab.1.right" timestamp="1577022062036">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state width="1866" height="339" key="GridCell.Tab.1.right/0.27.1920.1053@0.27.1920.1053" timestamp="1577022062036" />
-    <state x="293" y="197" width="1037" height="761" key="SettingsEditor" timestamp="1577693827026">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="293" y="197" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1577693827026" />
-    <state x="2213" y="174" width="1037" height="761" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1577517176404" />
-    <state x="555" y="307" width="800" height="531" key="Vcs.Push.Dialog.v2" timestamp="1577694750981">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="555" y="307" width="800" height="531" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1577020576035" />
-    <state x="555" y="307" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1577694750981" />
-    <state x="2475" y="287" width="800" height="531" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1577521426490" />
-    <state x="2534" y="367" key="com.intellij.ide.util.TipDialog" timestamp="1577516180101">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state x="2534" y="367" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1577516180101" />
-    <state x="2647" y="406" width="455" height="293" key="git4idea.rebase.GitRebaseDialog" timestamp="1576566027106">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state x="2647" y="406" width="455" height="293" key="git4idea.rebase.GitRebaseDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1576566027106" />
-    <state x="237" y="266" width="1436" height="615" key="new project wizard" timestamp="1577694076637">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="237" y="266" width="1436" height="615" key="new project wizard/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1577694076637" />
-    <state x="2157" y="245" width="1436" height="615" key="new project wizard/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1577516287064" />
-    <state x="624" y="252" key="run.anything.popup" timestamp="1577011493101">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="624" y="252" key="run.anything.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1577011493101" />
+    <state x="178" y="72" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1616222725798" />
   </component>
 </project>

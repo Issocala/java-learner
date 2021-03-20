@@ -8,12 +8,16 @@
         <outputRelativeToContentRoot value="true" />
         <module name="LRUalgorithm" />
         <module name="dubbo-api" />
-        <module name="dubbo-client" />
+        <module name="game" />
         <module name="dubbo-server" />
         <module name="LRU-algorithm" />
+        <module name="dubbo-client" />
         <module name="thread-poll-size-magic-calculator" />
         <module name="zookeeper" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="listener" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
