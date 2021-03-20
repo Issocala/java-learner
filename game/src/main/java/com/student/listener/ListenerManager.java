@@ -1,6 +1,7 @@
 package com.student.listener;
 
 import com.student.listener.annotation.Listener;
+import com.sun.org.apache.bcel.internal.generic.IF_ACMPEQ;
 import com.sun.org.slf4j.internal.Logger;
 import com.sun.org.slf4j.internal.LoggerFactory;
 import javafx.application.Application;
@@ -19,7 +20,6 @@ import java.util.*;
  * @date : 2021-03-20 13:09
  **/
 @Component
-@ComponentScan
 public class ListenerManager {
     private static final Logger log = LoggerFactory.getLogger(ListenerManager.class);
 
@@ -46,8 +46,10 @@ public class ListenerManager {
         for (Class<?> listenerType : listenerTypes) {
             Map<String, ?> beansOfType = context.getBeansOfType(listenerType);
             List list = listeners.get(listenerType);
-            listeners.putIfAbsent(listenerType, new ArrayList<>());
-
+            if (Objects.isNull(list)) {
+                list = new ArrayList();
+                listeners.put(listenerType, list);
+            }
             for (Map.Entry<String, ?> entry : beansOfType.entrySet()) {
                 list.add(entry.getValue());
             }

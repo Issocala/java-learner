@@ -1,6 +1,9 @@
 package com.student.listener;
 
+import com.student.listener.annotation.Listener;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.stereotype.Component;
 
 /**
@@ -10,6 +13,7 @@ import org.springframework.stereotype.Component;
  * @date : 2021-03-20 14:54
  **/
 @Component
+@ComponentScan(value = "com.student")
 public class PlayerLevelUpDemo implements PlayerLevelChangedListener {
 
     @Autowired
@@ -23,6 +27,17 @@ public class PlayerLevelUpDemo implements PlayerLevelChangedListener {
     /**
      * 升级操作
      */
+    public static void main(String[] args) {
+        AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext();
+        applicationContext.register(PlayerLevelUpDemo.class);
+        applicationContext.refresh();
+        PlayerLevelUpDemo playerLevelUpDemo = applicationContext.getBean(PlayerLevelUpDemo.class);
+
+        playerLevelUpDemo.up();
+
+
+    }
+
     public void up() {
         //触发玩家等级变化。。。1 -> 2
         listenerManager.firePlayerLevelChangedLister(new PlayerActor(), 1, 2);
