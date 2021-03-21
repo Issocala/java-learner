@@ -17,7 +17,7 @@ public interface ModuleType {
         return null;
     }
 
-    default <E extends GameObject> ModuleComputer<E> getModuleCompute() {
+    default <E extends GameObject> ModuleComputer<E> getModuleComputer() {
         return null;
     }
 

@@ -1,5 +1,6 @@
-package com.student.base.attribute.modulecomputer;
+package com.student.base.attribute.modulecomputer.impl;
 
+import com.student.base.attribute.modulecomputer.ModuleComputer;
 import com.student.base.module.ModuleType;
 import com.student.base.attribute.container.AttributeContainer;
 import com.student.base.attribute.type.AttributeType;
@@ -12,14 +13,15 @@ import java.util.Set;
 
 /**
  * @author : luoyong
- * @date : 2021-03-20 23:47
+ * @date : 2021-03-20 23:48
  **/
-public class DefaultRootModuleComputer<E extends GameObject> extends DefaultAccumulateModuleComputer<E> {
-    private static final Logger logger = LoggerFactory.getLogger(DefaultRootModuleComputer.class);
+public class DefaultAccumulateModuleComputer<E extends GameObject> implements ModuleComputer<E> {
+
+    private static final Logger logger = LoggerFactory.getLogger(DefaultAccumulateModuleComputer.class);
 
     @Override
     public void compute(E owner, AttributeContainer attributeContainer, Map<ModuleType, AttributeContainer> allChildData, Set<AttributeType> changeTypes, Set<ModuleType> changeModules) {
-        super.compute(owner, attributeContainer, allChildData, changeTypes, changeModules);
-//        AttributeComponent component = owner.get
+        logger.debug("计算属性：{}", allChildData);
+        changeTypes.addAll(attributeContainer.accumulate(allChildData.values(), changeModules));
     }
 }

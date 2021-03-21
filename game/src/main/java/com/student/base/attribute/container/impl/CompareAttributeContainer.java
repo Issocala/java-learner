@@ -10,6 +10,8 @@ import java.util.Map;
 import java.util.Set;
 
 /**
+ * 属性比对容器，一般用于根节点进行属性对比收集changeTypes 注意：不要进行序列化，序列化同一使用SimpleAttributeContainer
+ *
  * @author : luoyong
  * @date : 2021-03-20 23:20
  **/

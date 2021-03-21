@@ -26,4 +26,20 @@ public class ModuleAttributes {
         moduleAttributes.attributes = attributes;
         return moduleAttributes;
     }
+
+    public ModuleType getModuleType() {
+        return moduleType;
+    }
+
+    public void setModuleType(ModuleType moduleType) {
+        this.moduleType = moduleType;
+    }
+
+    public Collection<Attribute> getAttributes() {
+        return attributes;
+    }
+
+    public void setAttributes(Collection<Attribute> attributes) {
+        this.attributes = attributes;
+    }
 }
