@@ -1,6 +1,6 @@
 package com.student.listener;
 
-import com.student.listener.annotation.Listener;
+import com.student.base.model.GameObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
@@ -20,7 +20,7 @@ public class PlayerLevelUpDemo implements PlayerLevelChangedListener {
     private ListenerManager listenerManager;
 
     @Override
-    public void onLevelChanged(PlayerActor player, int oldLevel, int newLevel) {
+    public void onLevelChanged(GameObject player, int oldLevel, int newLevel) {
         System.out.println("玩家等级变化了--" + oldLevel + "----" + newLevel);
     }
 
@@ -40,6 +40,6 @@ public class PlayerLevelUpDemo implements PlayerLevelChangedListener {
 
     public void up() {
         //触发玩家等级变化。。。1 -> 2
-        listenerManager.firePlayerLevelChangedLister(new PlayerActor(), 1, 2);
+        listenerManager.firePlayerLevelChangedLister(new GameObject(), 1, 2);
     }
 }

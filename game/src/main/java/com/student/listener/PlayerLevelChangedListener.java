@@ -1,5 +1,6 @@
 package com.student.listener;
 
+import com.student.base.model.GameObject;
 import com.student.listener.annotation.Listener;
 
 /**
@@ -11,5 +12,5 @@ import com.student.listener.annotation.Listener;
 @Listener
 public interface PlayerLevelChangedListener {
     //收到玩家等级的变化
-    void onLevelChanged(PlayerActor player, int oldLevel, int newLevel);
+    void onLevelChanged(GameObject player, int oldLevel, int newLevel);
 }

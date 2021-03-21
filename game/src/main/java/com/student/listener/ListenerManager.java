@@ -1,15 +1,11 @@
 package com.student.listener;
 
+import com.student.base.model.GameObject;
 import com.student.listener.annotation.Listener;
-import com.sun.org.apache.bcel.internal.generic.IF_ACMPEQ;
 import com.sun.org.slf4j.internal.Logger;
 import com.sun.org.slf4j.internal.LoggerFactory;
-import javafx.application.Application;
-import org.slf4j.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
@@ -101,7 +97,7 @@ public class ListenerManager {
      * @param oldLevel 玩家旧等级
      * @param newLevel 玩家新等级
      */
-    public void firePlayerLevelChangedLister(PlayerActor player, int oldLevel, int newLevel) {
+    public void firePlayerLevelChangedLister(GameObject player, int oldLevel, int newLevel) {
         Collection<PlayerLevelChangedListener> listeners = getListeners(PlayerLevelChangedListener.class);
         for (PlayerLevelChangedListener levelChangedListener : listeners) {
             try {
