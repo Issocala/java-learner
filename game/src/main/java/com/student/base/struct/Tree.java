@@ -52,7 +52,7 @@ public class Tree<K, E> {
     public E erase(K parentKey, K key) {
         TreeNode<K, E> parent = getNode(parentKey);
         parent.childDataMap.remove(key);
-
+        this.cache.remove(key);
         TreeNode<K, E> node = this.getNode(key);
         if (node == null) {
             return null;
