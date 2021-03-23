@@ -13,7 +13,8 @@ import java.util.Objects;
 public class TreeNodeCount {
 
     public static void main(String[] args) {
-        count(TreeNode.of());
+        int num = count(TreeNode.of());
+        System.out.print(num);
     }
 
     public static int count(TreeNode root) {
