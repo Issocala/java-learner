@@ -23,7 +23,7 @@ import java.util.Objects;
 public class InvertTree {
 
     public static void main(String[] args) {
-
+        invertTree(new TreeNode());
     }
 
     private static TreeNode invertTree(TreeNode root) {
