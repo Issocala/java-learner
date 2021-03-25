@@ -19,7 +19,7 @@ public class FindkthSmallest {
 
     private static int kthSmallest(TreeNode root, int k) {
         traverse(root, k);
-        return 0;
+        return res;
     }
 
 
