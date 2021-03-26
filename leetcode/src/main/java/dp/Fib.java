@@ -1,4 +1,4 @@
-package tree;
+package dp;
 
 /**
  * 斐波那契数列
@@ -16,7 +16,7 @@ public class Fib {
         int pre = 1;
         int curr = 1;
         int next = 0;
-        for (int i = 3; i <=n; i++) {
+        for (int i = 3; i <= n; i++) {
             next = pre + curr;
             pre = curr;
             curr = next;
