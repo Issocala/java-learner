@@ -22,18 +22,15 @@ public class FlattenTree {
         }
         flatten(root.left);
         flatten(root.right);
-
         TreeNode left = root.left;
         TreeNode right = root.right;
 
         root.left = null;
         root.right = left;
-
         TreeNode p = root;
-        while (p.right != null) {
+        while (Objects.nonNull(p.right)) {
             p = p.right;
         }
-
         p.right = right;
     }
 }
