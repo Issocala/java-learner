@@ -15,33 +15,28 @@ public class PreOderAndInOderBuildTree {
     }
 
     private static TreeNode buildTree(int[] preOder, int[] inOder) {
-        return buildTree(preOder, 0, preOder.length - 1,
-                inOder, 0, inOder.length - 1);
+        return buildTree(preOder, 0, preOder.length - 1, inOder, 0, inOder.length - 1);
     }
 
-    private static TreeNode buildTree(int[] preOder, int preStart, int preEnd, int[] inOder, int inStart, int inEnd) {
-        if (preStart >= preEnd) {
+    private static TreeNode buildTree(int[] preOder, int preStar, int preEnd,
+                                  int[] inOder, int inStar, int inEnd) {
+        if (preStar >= preEnd) {
             return null;
         }
+        int rootVal = preOder[preStar];
         int index = 0;
-        for (int i = inStart; i <= inEnd; i++) {
-            if (inOder[i] == preOder[preStart]) {
+        for (int i = inStar; i <= inEnd; i++) {
+            if (inOder[i] == rootVal) {
                 index = i;
                 break;
             }
         }
-
-        int leftSize = index - inStart;
-
-        TreeNode root = new TreeNode(preOder[preStart]);
-
-        root.left = buildTree(preOder, preStart + 1, preStart + leftSize,
-                inOder, inStart, index - 1);
-
-        root.right = buildTree(preOder, preStart + leftSize + 1, preEnd,
-                inOder, leftSize + 1, inEnd);
+        int leftSize = index - inStar;
+        TreeNode root = new TreeNode(rootVal);
+        root.left = buildTree(preOder, preStar + 1, preStar + leftSize,
+                inOder, inStar, index - 1);
+        root.right = buildTree(preOder, preStar + leftSize + 1, preEnd,
+                inOder, index + 1, inEnd);
         return root;
     }
-
-
 }
